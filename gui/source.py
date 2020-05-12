@@ -236,7 +236,7 @@ class Root(tk.Tk):
                 print(result_surf)
                 #self.result = tk.Label(self,text=result_orb)
                 #self.result.grid()
-                self.resultLbl.config(text=result_orb)
+                self.resultLbl.config(text=result_surf)
             else:
                 print(result_orb)
                 #self.result = tk.Label(self,text=result_orb, font='Verdana')
